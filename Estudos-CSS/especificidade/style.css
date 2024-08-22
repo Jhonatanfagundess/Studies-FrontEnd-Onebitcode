@@ -1,0 +1,15 @@
+
+/*Id tem a maior especificidade*/
+#azul{
+    color: blue;
+}
+
+/*classe o segundo nível especificidade*/
+.verde{
+    color: green;
+}
+
+/*tem a menor especificidade se for um selector universal*/
+h1{ 
+    color: red !important;
+}
