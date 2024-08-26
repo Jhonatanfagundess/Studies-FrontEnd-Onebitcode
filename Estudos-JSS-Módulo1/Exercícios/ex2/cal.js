@@ -10,7 +10,7 @@ let dano_causado = 0
 
 
 if(at > def && escudo == 'Não'){
-    dano = a - d
+    dano_causado = a - d
 }else if(a > d && escudo =='Sim'){
     dano_causado = (a - d) / 2
 }else if(a <= d){
@@ -26,3 +26,4 @@ alert(
   p2 + "\nPontos de vida: " + life +
   "\nPoder de defesa: " + def + "\nPossui escudo: " + escudo
 )
+
