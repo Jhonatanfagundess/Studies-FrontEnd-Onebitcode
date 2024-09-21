@@ -1,6 +1,6 @@
 //Cadastro Básico
 class User {
-    constructor(fullname){
+    constructor(fullname,email,password){
         this.fullname = fullname
         this.email = email
         this.password = password
@@ -21,7 +21,7 @@ console.log(usuario)
 
 //Produto
 class Product {
-    constructor(name){
+    constructor(name,description,price){
         this.name = name
         this.description = description
         this.price = price
