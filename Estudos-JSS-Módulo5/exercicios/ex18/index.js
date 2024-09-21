@@ -37,3 +37,9 @@ class Product {
     }
 }
 
+const produto = new Product('Coca-Cola','Zero é sempre melhor!',10)
+produto.AddStock(120)
+
+console.log(produto)
+
+console.log(produto.Discount(15))
