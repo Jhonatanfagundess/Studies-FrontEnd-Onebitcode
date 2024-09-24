@@ -55,7 +55,7 @@ document.getElementById("copyToClipboard").addEventListener("click", function (e
       button.classList.remove("success")
     }
   })
-
+ 
 document.getElementById("themeSwitcher").addEventListener("click", function () {
     if (main.dataset.theme === "dark") {
       root.style.setProperty("--bg-color", "#f1f5f9")
