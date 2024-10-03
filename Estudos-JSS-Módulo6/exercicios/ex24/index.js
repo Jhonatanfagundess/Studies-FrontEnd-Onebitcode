@@ -1,6 +1,3 @@
-const peso = parseFloat(input('Qual seu Peso?'))
-const altura = parseFloat(input('Qual sua Altura?'))
-
 function body(peso, altura){
     return new Promise((resolvida,rejeitada) => {
         console.log('Executando aqui...')
