@@ -1,0 +1,16 @@
+{
+  "name": "primeiro-codigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc-watch": "tsc--watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
