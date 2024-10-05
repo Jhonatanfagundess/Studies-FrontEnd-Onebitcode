@@ -9,7 +9,7 @@ clearTimeout(timeoutId)
 let seconds = 0
 
 const intervalId =  setInterval(() => {
-    seconds += 3
+    seconds += 3  
     console.log(`Se passsaram ${seconds} segundos!`)
     if(seconds > 10){
         clearInterval(intervalId)

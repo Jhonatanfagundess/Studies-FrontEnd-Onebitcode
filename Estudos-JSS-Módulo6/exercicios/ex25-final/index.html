@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 25-Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <h2>Transitions</h2>
+            <input type="hidden" id="id" name="id">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+            <label for="amount">Valor:</label>
+            <input type="number" step="0.01" id="amount" name="amount">
+            <br><br>
+            <button>Salvar</button>
+        </form>
+        <div>
+            <h2>Saldo: <span id="balance"></span></h2>
+            <h2>Histórico de Transações</h2>
+            <section id="transactions"></section>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
