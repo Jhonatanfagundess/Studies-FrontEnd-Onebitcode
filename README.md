@@ -15,7 +15,7 @@ O conhecimento e estudo que estão sendo aplicados aqui vão do básico ao avan�
 - NEXT.JS
 - ANGULAR
 - SASS | BOOTSTRAP
-- GIT|GITHUB
+- GIT | GITHUB
 - SQL 
 
 Todas essas ferramentas serão estudadas! Todas terão cursos/pastas diferentes para mostrar meus estudos e logo após isso terão projetos criados por mim e mostrados no futuro.
