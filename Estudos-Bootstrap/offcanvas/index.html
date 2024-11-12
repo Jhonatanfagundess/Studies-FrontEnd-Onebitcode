@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffCanvas</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <!--Aqui a interação vai fazer com que apareça do lado da tela-->
+        <!--O chamado aqui é feito pelo ID da div que tem o conteudo-->
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+           Clique nesse button
+        </a>
+        <!--São duas formas de criar essa interação, temos por criaçaõ de um button ou usando um link direto-->
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+           Uma forma diferente de fazer o mesmo button
+        </button>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam quo totam. Sapiente tenetur pariatur veniam repellendus quo ea consequuntur voluptas fuga quidem voluptatem impedit iste mollitia iusto dolor eligendi provident nobis, sunt voluptatum corporis soluta. Possimus aperiam iusto doloremque, corrupti nemo labore aliquam iure adipisci nulla, nihil ullam dicta?</p>
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container mt-5">
+    <!--Aqui nessa interação faz com que a informação apareça por cima -->
+     <!--O chamado aqui é feito pelo ID da div que tem o conteudo-->
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasTop" role="button" aria-controls="offcanvasExample">
+                Clique nesse button
+                </a>
+
+          <!--Formas diferentes adicionadas para chamar o canvas-->      
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Surpresa</button>
+
+
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ipsum assumenda alias nisi amet reprehenderit rerum fugiat perferendis tempore eveniet cumque, iusto officiis minima nobis repellat quis. Ex nam velit voluptatibus reprehenderit cupiditate quis totam non soluta quaerat impedit porro excepturi, dolore, sed explicabo molestiae autem quas cumque. Animi saepe qui consectetur. Ab iure illum, iste quia, rem eos deserunt asperiores reprehenderit voluptates consequatur accusantium nisi, omnis repellendus. Quae, facilis.</p>
+                    </div>
+            </div>
+        </div>
+</div>
+
+
+
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
