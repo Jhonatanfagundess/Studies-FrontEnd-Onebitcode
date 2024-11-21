@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Animate</title>
+
+    <style>
+        body{
+            color: white;
+            font-size: 40px;
+            background-color: blueviolet;
+        }
+
+        .container{
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Para usarmos essa animação de texto temos que apenas que usar a biblioteca do github!-->
+    <div data-aos="fade-up" class="container" data-aos-duration="3000">
+        <p>Hello, World</p>
+    </div>
+
+    <div data-aos="fade-down" class="container">
+        <p>Hello, World</p>
+    </div>
+
+    <!--Existem vários modelos de animação e como os textos vão aparecer em tela podemos colocar como vão aparecer e a duração ad animação-->
+
+    <div data-aos="flip-left" class="container">
+        <p>Hello, World</p>
+    </div>
+
+
+    <div data-aos="flip-right" class="container" data-aos-duration="1500">
+        <p>Hello, World</p>
+    </div>
+
+
+    <!--Pode vir de cima,dos lados, de baixo etc..-->
+
+
+    
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
